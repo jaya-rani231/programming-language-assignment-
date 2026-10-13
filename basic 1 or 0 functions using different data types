@@ -1,0 +1,25 @@
+ printf("\n--- Output ---\n");int experiment1() {
+ int a;
+ float b;
+ double c;printf("String entered : %s\n", n scanf(" %c", &ch); // space before %c to skip leftover newline/whitespace
+ printf("Enter a string (name): ");
+ scanf("%s", name); // no & needed since name is an array (decays to pointer)
+ // Output section
+ char ch;
+ char name[50];
+ // Input section
+ printf("Enter an integer: ");
+ scanf("%d", &a);
+ printf("Enter a float value: ");
+ scanf("%f", &b);
+ printf("Enter a double value: ");
+ scanf("%lf", &c);
+ printf("Enter a single character: ");
+
+ printf("Integer entered : %d\n", a);
+ printf("Float entered : %.2f\n", b);
+ printf("Double entered : %.2lf\n", c);
+ printf("Character entered : %c\n", ch);
+ame);
+ return 0;
+}
